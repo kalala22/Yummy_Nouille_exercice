@@ -8,22 +8,25 @@ a{
     text-decoration: none;
 }
 
-header{
+.appBar{
     display: flex;
     align-items: center;
     gap: 1rem;
     font-family: "Bebas Neue", sans-serif;
-    margin: 1rem 2rem;
+    margin: 2rem 2rem;
 }
-header img{
-    width: 65px;
-    height: 65px;
+.appBar__icon img{
+        width: 3.875rem;
+        height: 3.875rem;
 }
-nav a{
+
+.appBar__navItems a{
     font-size: 24px;
     color: black;
     margin-left: 1rem;
 }
-nav a:hover{
+.appBar__navItems a:hover
+{
     border-bottom: 3px solid var(--color-red-highlight);
+    
 }

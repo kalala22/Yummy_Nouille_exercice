@@ -1,0 +1,54 @@
+@import url(colors.css);
+.main_section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 5rem 0rem;
+}
+.bloc_titre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.bloc_titre h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+.bloc_titre p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.titreSection {
+    display: flex;
+    justify-content: center;
+}
+.titreSection h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 3px solid var(--color-red-highlight);
+}
+
+.cardSection {
+    display: flex;
+    justify-content: center;
+}
+.cardSection__block {
+    display: flex;
+    padding: 4rem;
+    gap: 8rem;
+}
+.cardSection__cardLocate {
+    h3{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+    }
+}

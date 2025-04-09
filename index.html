@@ -19,9 +19,12 @@
     <title>Yummy Nouilles</title>
   </head>
   <body>
-    <header>
-      <img src="assets/logo-yummy.svg" alt="logo-yummy" />
-      <nav>
+    <header class="appBar">
+        <div class="appBar__icon">
+            <img src="assets/logo-yummy.svg" alt="logo-yummy" />
+        </div>
+      
+      <nav class="appBar__navItems">
         <a href="index.html">accuiel</a>
         <a href="menu.html">menu</a>
         <a href="contact.html">contact</a>
@@ -36,10 +39,14 @@
         </div>
         <img src="assets/logo-yummy.svg" alt="" />
       </section>
-      <section>
+      <div class="titreSection">
         <h2>Nos Address</h2>
-        <div>
-          <div>
+    </div>
+      <section class="cardSection">
+        
+        <div class="cardSection__block">
+            
+          <div class="cardSection__cardLocate">
             <img
               src="assets/img/restaurant/Facade_Yummy_Nouille_1_1_20.jpg"
               alt="image-resto"
@@ -48,7 +55,7 @@
             <p>185 rue de Lancry</p>
             <p>75010 Paris</p>
           </div>
-          <div>
+          <div class="cardSection__cardLocate">
             <img
               src="assets/img/restaurant/Facade_Yummy_Nouille_2_1_18.jpg"
               alt="image-resto"
@@ -57,7 +64,7 @@
             <p>350 rue Saint-Guillaume</p>
             <p>75007 Paris</p>
           </div>
-          <div>
+          <div class="cardSection__cardLocate">
             <img
               src="assets/img/restaurant/Facade_Yummy_Nouille_3_1_34.jpg"
               alt="image-resto"
@@ -67,11 +74,12 @@
             <p>75003 Paris</p>
           </div>
         </div>
-        <div>
-          <p>Commandez maintenant</p>
-          <a href="#">click & collect</a>
-        </div>
+        
       </section>
+      <div>
+        <p>Commandez maintenant</p>
+        <a href="#">click & collect</a>
+      </div>
       <section>
         <h2>Notre savoir faire</h2>
         <p>

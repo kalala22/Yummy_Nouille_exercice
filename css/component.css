@@ -1,6 +1,9 @@
 @import url(colors.css);
 
-.btn_links{
+
+
+
+.btn_links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,8 +12,8 @@
     background-color: var(--background-color-btn-black);
 }
 
-    /* font-family: "Bebas Neue", sans-serif; */
-a.btn_links{
+/* font-family: "Bebas Neue", sans-serif; */
+a.btn_links {
     font-family: "Bebas Neue", sans-serif;
     color: var(--color-a-white);
     font-size: 24px;

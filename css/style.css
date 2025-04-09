@@ -1,4 +1,6 @@
 @import url(colors.css);
+
+
 .main_section {
     display: flex;
     justify-content: center;
@@ -51,4 +53,47 @@
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
     }
+}
+.ctaBaner{
+    height: 13.5rem;
+    background-color: var(--color-background-ctaBaner);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        color: var(--color-p-white);
+        padding: 1rem;
+    }
+}
+.textSection__para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+.blocText__para{
+    width: 72.38rem;
+    height: 6.3rem;
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+}
+.socialGallery__section{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+
+}
+.socialGallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4rem;
 }

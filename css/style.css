@@ -79,7 +79,7 @@
 .blocText__para{
     width: 72.38rem;
     height: 6.3rem;
-    
+
     p{
         font-family: "Montserrat", sans-serif;
         font-size: 20px;
@@ -97,4 +97,58 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 4rem;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .main_section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin: 5rem 0rem;
+    }
+    .bloc_titre {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .bloc_titre h1 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    .bloc_titre p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1;
+        font-weight: 600;
+        text-align: center;
+        padding: 2rem;
+    }
+    .cardSection__block {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .textSection__para p{
+        text-align: center;
+        margin: 0rem 2rem;
+        border: blue solid 5px;
+    }
+    .titreSection {
+        padding: 2rem 0rem;
+    }
+    .socialGallery__section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem;
+    }
+    .socialGallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
